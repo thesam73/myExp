@@ -40,7 +40,7 @@
    *  listeners.
    */
   function initClient() {
-    const CLIENT_ID = '840179112792-bhg3k1h0dcnp9ltelj21o6vibphjcufe.apps.googleusercontent.com';
+    const CLIENT_ID = '774962618318-m1ucpfrnjca07o6kl482gfo180kcmjr1.apps.googleusercontent.com';
     const DISCOVERY_DOCS = [
       'https://sheets.googleapis.com/$discovery/rest?version=v4',
       'https://www.googleapis.com/discovery/v1/apis/drive/v3/rest',
@@ -179,7 +179,7 @@
       message: 'Cannot find the expense sheet in your google drive.',
       actionHandler: () => {
         window.open(
-          'https://github.com/mitul45/expense-manager/blob/master/README.md#how-to-get-started',
+          'https://github.com/thesam73/expense-manager/blob/master/README.md#how-to-get-started',
           '_blank',
         );
       },

@@ -1,0 +1,353 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"files",
+				"files_to_copy"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"alb",
+				"albums"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"dep",
+				"depenses"
+			],
+			[
+				"s",
+				"subscribe"
+			],
+			[
+				"de",
+				"Depenses"
+			],
+			[
+				"deps",
+				"depense"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"cat",
+				"category"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"bac",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/sam/Documents/WebSite/expense-manager-master/deploy.sh",
+		"/Users/sam/Documents/WebSite/expense-manager-master/init.js",
+		"/Users/sam/Documents/com.microsoft.office.licensing.plist",
+		"/Users/sam/Documents/WebSite/sigal/_build/index.html",
+		"/Users/sam/Documents/WebSite/sigal/theme/sigal-jekyll-master/templates/base.html",
+		"/Users/sam/Documents/WebSite/sigal/.gitignore",
+		"/Users/sam/Documents/WebSite/sigal/theme/colorbox-sam/static/css/layout.css",
+		"/Users/sam/Documents/WebSite/sigal/theme/colorbox/templates/base.html",
+		"/Users/sam/Documents/WebSite/flickolio2015/bottom.php",
+		"/Users/sam/Documents/WebSite/flickolio/style.css",
+		"/Users/sam/Documents/WebSite/flickolio2015/index.php",
+		"/Users/sam/Documents/WebSite/flickolio2015/header.php",
+		"/Users/sam/Documents/WebSite/flickolio2015/phpFlickr.php",
+		"/Users/sam/Documents/WebSite/flickolio/phpFlickr.php",
+		"/Users/sam/Documents/WebSite/flickolio/index.php",
+		"/Users/sam/Documents/WebSite/flickr-folio/img/photoset.svg",
+		"/Users/sam/Documents/WebSite/flickr-folio/img/iconmonstr-picture-icon.svg",
+		"/Users/sam/Documents/WebSite/flickr-folio/img/iconmonstr-picture-box-icon.svg",
+		"/Users/sam/Downloads/GammaGallery/index.html",
+		"/Users/sam/Documents/WebSite/iou-meteor/iou-meteor.css",
+		"/Users/sam/Documents/WebSite/iou-meteor/iou-meteor.html",
+		"/Users/sam/Documents/WebSite/iou-meteor/iou-meteor.js",
+		"/Applications/XBMC.app/Contents/Resources/XBMC/addons/skin.refred-master/720p/ViewLeftList.xml",
+		"/Users/sam/Documents/WebSite/opentravel/header.php",
+		"/Users/sam/Library/Application Support/XBMC/addons/skin.amber/1080i/Font.xml",
+		"/Users/sam/Downloads/iou-meteor.js",
+		"/Users/sam/Documents/WebSite/mongodump"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"dataset",
+			"diabetes",
+			"max-h",
+			"max-",
+			"right",
+			"curs",
+			"curso",
+			"#",
+			"##",
+			"width",
+			"galler",
+			"justif",
+			"justi",
+			"font-fa",
+			"font",
+			"font-fa",
+			"PT",
+			"genera",
+			"genra",
+			"sigal",
+			"caption",
+			"capt",
+			"cap",
+			"captio",
+			"96",
+			"css",
+			"contain$",
+			"three",
+			"column_size",
+			"settings.colorbox_column_size",
+			"une",
+			".ima",
+			".image",
+			"image",
+			"bonus",
+			"table_t",
+			"table_",
+			"buo",
+			"bou",
+			"car",
+			"Depenses.f",
+			"monthlyCatRatio",
+			"monthlyCat",
+			"totalCat",
+			"anymonthmonthlytotal",
+			"anymonthmonthlytotalCat",
+			"monthlyCat",
+			"consolidateMonth",
+			"Depe",
+			"summaryall",
+			"Depenses",
+			"anymonthmonthlytotal",
+			"depenses",
+			"consolidateMonthly",
+			"poster",
+			"1000",
+			"100",
+			"title",
+			"find",
+			"help",
+			"monthlytotalCat",
+			"drawchart",
+			"rentAmount",
+			"summary__table",
+			"monthlytotalCat",
+			"Depenses.find()",
+			"        if (Depenses.find().count() > 0) {\n",
+			"fetch",
+			"monthlyratioCat",
+			"session",
+			"anymonthmonthlytotalCat",
+			"login__screen",
+			"monthlyratioCat",
+			"Depe",
+			"summaryall",
+			"monthlyratioCat",
+			"Arial.ttf",
+			"totalRatio",
+			"monthlyMratioCat",
+			"monthlytotalCat",
+			"rendered",
+			"btn__stats",
+			"summaryall",
+			"drawChartCurrent",
+			"drawC",
+			"dra",
+			"count",
+			"depense",
+			"count",
+			"Deps",
+			"dpes",
+			"if (Depenses.find().count() > 0) {",
+			"find().count() ",
+			"dra",
+			"Deps.autorun(function () {",
+			"autor",
+			"drawChartCurrent",
+			"dataDimpl"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"trainData",
+			"InternationalTouristArrivals",
+			"findFaster",
+			"Casper.ttf",
+			"Gotham-Light.otf",
+			"Deps.autorun(function () {"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "myExp.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 191.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
