@@ -46,12 +46,17 @@
                 <div id="forms" class="summary__forms">
                     <form id="expense-form">
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input class="mdl-textfield__input" type="text" id="expense-description" data-required>
-                            <label class="mdl-textfield__label" for="expense-description">Description</label>
+                            <input class="mdl-textfield__input" type="number" id="expense-amount" step="0.01" data-required>
+                            <label class="mdl-textfield__label" for="expense-amount">Amount</label>
                         </div>
-                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label is-dirty">
-                            <label class="mdl-textfield__label_date">Date</label>
-                            <input class="mdl-textfield__input" type="date" id="expense-date" data-required>
+
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label getmdl-select">
+                            <input type="text" value="" class="mdl-textfield__input" id="expense-category" readonly>
+                            <input type="hidden" value="" name="expense-category">
+                            <i class="mdl-icon-toggle__label material-icons">keyboard_arrow_down</i>
+                            <label for="expense-category" class="mdl-textfield__label">Category</label>
+                            <ul for="expense-category" id="expense-category-ul" class="mdl-menu mdl-menu--bottom-left mdl-js-menu">
+                            </ul>
                         </div>
 
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label getmdl-select">
@@ -63,21 +68,23 @@
                             </ul>
                         </div>
 
-                        <div class="dropdown">
-                            <span>Category</span>
-                            <select id="expense-category" data-required></select>
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label is-dirty">
+                            <label class="mdl-textfield__label_date">Date</label>
+                            <input class="mdl-textfield__input" type="date" id="expense-date" data-required>
                         </div>
+
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input class="mdl-textfield__input" type="number" id="expense-amount" step="0.01" data-required>
-                            <label class="mdl-textfield__label" for="expense-amount">Amount</label>
+                            <input class="mdl-textfield__input" type="text" id="expense-description" data-required>
+                            <label class="mdl-textfield__label" for="expense-description">Description</label>
                         </div>
+
                         <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="is-income">
                             <input type="checkbox" id="is-income" class="mdl-switch__input" />
                             <span class="mdl-switch__label"> income? </span>
                         </label>
                         <br>
                         <br>
-                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effectmdl-button--accent" id="add-expesne" type="submit"> Save </button>
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effectmdl-button--accent" id="add-expesne" type="submit">Add expense</button>
                     </form>
                 </div>
             </div>

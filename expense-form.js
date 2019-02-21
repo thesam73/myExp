@@ -9,6 +9,7 @@
   const accountEl = byID('expense-account');
   const accountElUl = byID('expense-account-ul');
   const categoryEl = byID('expense-category');
+  const categoryElUl = byID('expense-category-ul');
   const amountEl = byID('expense-amount');
   const isIncomeEl = byID('is-income');
   const addExpenseBtn = byID('add-expesne');
@@ -89,12 +90,14 @@
     accounts.forEach(account => {
       accountElUl.appendChild(utils.wrapInLi(account));
     });
-    getmdlSelect.init(".getmdl-select")
+   
 
     categories.forEach(category => {
-      categoryEl.appendChild(utils.wrapInOption(category));
+      categoryElUl.appendChild(utils.wrapInLi(category));
     });
 
+    getmdlSelect.init(".getmdl-select")
+    
     // set lister for `Save` button
     addExpenseBtn.onclick = addExpense.bind(null);
   }
