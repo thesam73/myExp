@@ -7,6 +7,7 @@
   const descriptionEl = byID('expense-description');
   const dateEl = byID('expense-date');
   const accountEl = byID('expense-account');
+  const accountElUl = byID('expense-account-ul');
   const categoryEl = byID('expense-category');
   const amountEl = byID('expense-amount');
   const isIncomeEl = byID('is-income');
@@ -86,8 +87,9 @@
 
     // initialize accounts and categories dropdown
     accounts.forEach(account => {
-      accountEl.appendChild(utils.wrapInOption(account));
+      accountElUl.appendChild(utils.wrapInLi(account));
     });
+    getmdlSelect.init(".getmdl-select")
 
     categories.forEach(category => {
       categoryEl.appendChild(utils.wrapInOption(category));

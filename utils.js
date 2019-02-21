@@ -17,19 +17,19 @@
   /**
    * show loader, hide forms
    */
-  function showLoader(forms, charts, loader) {
+  function showLoader(forms, loader) {
     hideEl(forms);
-    hideEl(charts);
+    //hideEl(charts);
     showEl(loader);
   }
 
   /**
    * hide loader, show forms
    */
-  function hideLoader(forms, charts, loader) {
+  function hideLoader(forms, loader) {
     hideEl(loader);
     showEl(forms);
-    showEl(charts);
+    //showEl(charts);
   }
 
   /**
@@ -101,6 +101,18 @@
       majorDimension: 'ROWS',
       valueRenderOption: 'UNFORMATTED_VALUE',
     };
+  }
+
+// accounts.forEach(account => {
+//       accountEl.appendChild(utils.wrapInOption(account));
+//     });
+
+function wrapInLi(option) {
+    const li = document.createElement('li');
+    li.setAttribute("data-val", option);
+    li.innerHTML = option;
+    li.classList.add("mdl-menu__item");
+    return li;
   }
 
   function wrapInOption(option) {
@@ -238,6 +250,7 @@
     hideEl,
     hideLoader,
     showLoader,
+    wrapInLi,
     wrapInOption,
     batchGetRequestObj,
     getRequestObj,

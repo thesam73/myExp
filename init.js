@@ -6,13 +6,13 @@
   const authorizeButton = byID('authorize-button');
   const signoutButton = byID('signout-button');
   const forms = byID('forms');
-  const charts = byID('charts');
+  //const charts = byID('charts');
   const loader = byID('loader');
   const snackbarContainer = byID('toast-container');
-  const sheetName = 'Expense Sheet';
+  const sheetName = 'expy_live';
 
-  utils.hideLoader = utils.hideLoader.bind(null, forms, charts, loader);
-  utils.showLoader = utils.showLoader.bind(null, forms, charts, loader);
+  utils.hideLoader = utils.hideLoader.bind(null, forms, loader);
+  utils.showLoader = utils.showLoader.bind(null, forms, loader);
 
   /**
    *  On load, called to load the auth2 library and API client library.
@@ -78,7 +78,7 @@
       utils.showEl(authorizeButton);
       utils.hideEl(signoutButton);
       utils.hideEl(forms);
-      utils.hideEl(charts);
+      //utils.hideEl(charts);
       utils.hideEl(loader);
     }
   }
@@ -89,7 +89,7 @@
   function onSignin() {
     utils.hideEl(authorizeButton);
     utils.showEl(signoutButton);
-    utils.showEl(charts);
+    //utils.showEl(charts);
 
     getSheetID(sheetName)
       .then(getCategoriesAndAccount, sheetNotFound)
@@ -153,10 +153,10 @@
       Object.keys(data.accounts),
       data.categories,
     );
-    window.expenseManager.transferForm.init(data.sheetID, Object.keys(data.accounts));
+    //window.expenseManager.transferForm.init(data.sheetID, Object.keys(data.accounts));
 
     // Show account balances in a tabular format
-    window.expenseManager.accountBalances.init(data.accounts);
+    //window.expenseManager.accountBalances.init(data.accounts);
 
     // Set colors for each category and account
     utils.setColorsForEachCategory(data.categories);
