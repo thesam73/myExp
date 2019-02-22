@@ -21,7 +21,7 @@ body {
 
 .summary__forms,
 .summary__balances {
-  margin: 2em;
+  /* margin: 2em; */
 }
 
 .summary__balances th,
@@ -177,4 +177,27 @@ body {
     font-size: 12px;
     top: 4px;
     visibility: visible;
+}
+
+.form-card-wide.mdl-card {
+  width: 512px;
+  margin: 50px 0;
+}
+.form-card-wide > .mdl-card__title {
+  /* color: #27347d; */
+  min-height: 350px;
+  background: url('images/hero.jpg') center / cover;
+}
+.form-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+
+#hide-tmp {
+  display: none;
+}
+
+button#add-expesne {
+    float: right;
+    /* padding: 10px; */
+    margin: 15px 40px;
 }

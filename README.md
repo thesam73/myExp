@@ -2,11 +2,10 @@
 
 _"If you can't measure it, you can't improve it."_ - [Peter Drucker](https://en.wikipedia.org/wiki/Peter_Drucker)  
 
-## Links
-- [https://getmdl.io/]https://getmdl.io/
-- [https://material.io/develop/]https://material.io/develop/
--[https://github.com/material-components/material-components-web]https://github.com/material-components/material-components-web
-
+# Links
+- https://getmdl.io/
+- https://material.io/develop/ 
+- https://github.com/material-components/material-components-web
 
 Take control back. Introducing Expense Manager, an app to track your daily spendings. It is made of two main components:
 1. [Main application](https://mitul45.github.io/expense-manager/): Used to add expenses to the sheet
