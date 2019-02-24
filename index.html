@@ -84,14 +84,22 @@
                             <input class="mdl-textfield__input" type="text" id="expense-description" data-required>
                             <label class="mdl-textfield__label" for="expense-description">Description</label>
                         </div>
-                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label getmdl-select">
+
+<!--                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label getmdl-select is-dirty">
                             <input type="text" value="" class="mdl-textfield__input" id="is-yearly" readonly>
                             <input type="hidden" value="" name="is-yearly">
                             <i class="mdl-icon-toggle__label material-icons">keyboard_arrow_down</i>
                             <label for="eis-yearly" class="mdl-textfield__label">Is Yearly</label>
                             <ul for="is-yearly" id="is-yearly-ul" class="mdl-menu mdl-menu--bottom-left mdl-js-menu">
                             </ul>
+                        </div> -->
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                        <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="is-yearly">
+                          <input type="checkbox" id="is-yearly" class="mdl-checkbox__input" checked>
+                          <span class="mdl-checkbox__label">is yearly</span>
+                        </label>
                         </div>
+
                         <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="is-income" id="hide-tmp">
                             <input type="checkbox" id="is-income" class="mdl-switch__input" />
                             <span class="mdl-switch__label"> income? </span>
