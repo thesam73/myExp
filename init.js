@@ -9,7 +9,7 @@
   //const charts = byID('charts');
   const loader = byID('loader');
   const snackbarContainer = byID('toast-container');
-  const sheetName = 'expy_live';
+  const sheetName = 'expy_2019';
 
   utils.hideLoader = utils.hideLoader.bind(null, forms, loader);
   utils.showLoader = utils.showLoader.bind(null, forms, loader);
@@ -124,7 +124,7 @@
   function getCategoriesAndAccount(sheetID) {
     return new Promise((resolve, reject) => {
       const ACCOUNT_RANGE = 'Data!A2:B50';
-      const CATEGORY_RANGE = 'Data!E2:E50';
+      const CATEGORY_RANGE = 'Data!E3:E50';
 
       gapi.client.sheets.spreadsheets.values
         .batchGet(utils.batchGetRequestObj(sheetID, [ACCOUNT_RANGE, CATEGORY_RANGE]))

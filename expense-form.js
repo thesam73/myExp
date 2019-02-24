@@ -12,6 +12,8 @@
   const categoryElUl = byID('expense-category-ul');
   const amountEl = byID('expense-amount');
   const isIncomeEl = byID('is-income');
+  const isYearlyEl = byID('is-yearly');
+  const isYearlyElUl = byID('is-yearly-ul');
   const addExpenseBtn = byID('add-expesne');
   const snackbarContainer = byID('toast-container');
 
@@ -30,6 +32,7 @@
     const categoryVal = categoryEl.value;
     const amountVal = amountEl.value;
     const isIncome = isIncomeEl.checked;
+    const isYearly = isYearlyEl.value;
 
     const dateObj = {
       yyyy: expenseDate.substr(0, 4),
@@ -47,6 +50,7 @@
             isIncome ? 0 : amountVal, // income amount
             isIncome ? amountVal : 0, // expense amount
             false, // is internal transfer?
+            isYearly,
           ],
         ]),
       )
@@ -96,6 +100,11 @@
       categoryElUl.appendChild(utils.wrapInLi(category));
     });
 
+    var truefalse = ["TRUE", "FALSE"];
+    truefalse.forEach(category => {
+      isYearlyElUl.appendChild(utils.wrapInLi(category));
+    });
+    isYearlyEl.value = "TRUE"
     getmdlSelect.init(".getmdl-select")
     
     // set lister for `Save` button
