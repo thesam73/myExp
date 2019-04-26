@@ -3,16 +3,124 @@
 	{
 		"selected_items":
 		[
+			[
+				"files",
+				"files_to_copy"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"alb",
+				"albums"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"dep",
+				"depenses"
+			],
+			[
+				"s",
+				"subscribe"
+			],
+			[
+				"de",
+				"Depenses"
+			],
+			[
+				"deps",
+				"depense"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"cat",
+				"category"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"bac",
+				"background-color"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
+			"file": "expense-form.js",
+			"settings":
+			{
+				"buffer_size": 3564,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 8736,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "account-balances.js",
+			"settings":
+			{
+				"buffer_size": 506,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "init.js",
+			"settings":
+			{
+				"buffer_size": 6041,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "/dev/sdb1       916G  853G   17G  99% /mnt/disk2_1T\n/dev/sdc1       1.8T  788G  952G  46% /mnt/disk3_2T\n/dev/sda3       898G  385G  468G  46% /mnt/disk1_1T",
+			"settings":
+			{
+				"buffer_size": 155,
+				"line_ending": "Unix",
+				"name": "/dev/sdb1       916G  853G   17G  99% /mnt/disk2_1"
+			}
+		},
+		{
 			"file": "sw.js",
 			"settings":
 			{
 				"buffer_size": 1270,
-				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
@@ -25,69 +133,28 @@
 			}
 		},
 		{
-			"file": "init.js",
+			"file": "yearly-overview.js",
 			"settings":
 			{
-				"buffer_size": 6037,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 5551,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "utils.js",
-			"settings":
-			{
-				"buffer_size": 7838,
-				"encoding": "UTF-8",
+				"buffer_size": 4623,
 				"line_ending": "Unix"
 			}
 		}
 	],
 	"build_system": "",
-	"build_system_choices":
-	[
-	],
-	"build_varint": "",
 	"command_palette":
 	{
 		"height": 0.0,
-		"last_filter": "",
 		"selected_items":
 		[
-			[
-				"Package Control: insta",
-				"Package Control: Install Package"
-			],
-			[
-				"Package Control: i",
-				"Package Control: List Packages"
-			],
-			[
-				"Package Control: ins",
-				"Package Control: Install Package"
-			],
-			[
-				"Package Control: ",
-				"Package Control: Install Package"
-			]
 		],
 		"width": 0.0
 	},
 	"console":
 	{
-		"height": 305.0,
+		"height": 0.0,
 		"history":
 		[
-			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
 		]
 	},
 	"distraction_free":
@@ -99,33 +166,43 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/C/Dev/Web/chromelocal/chromeserver.com"
-	],
 	"file_history":
 	[
-		"/C/Dev/Web/chromelocal/chromeserver.com/index.html",
-		"/C/Dev/Web/chromelocal/miniweb.exe",
-		"/C/Projects/DataBoardGIT/PublishedVersion/pushAppToServer_createVersion.sh",
-		"/C/Users/u0079268/Downloads/app-39-173.tar/app-39-173/index.htm",
-		"/C/Users/u0079268/Downloads/app-39-173.tar/app-39-173/app.R",
-		"/C/CSL-local/MySoftware/R/cert-connect.pem",
-		"/C/Projects/DataBoardGIT/PublishedVersion/shiny-server.conf",
-		"//euchbrnfil01/u0079268$/MyDocs/standalone.r",
-		"/C/Projects/2018_13 (IgGPlasmaPool)/Statistics/R/IgGPlasmaPoolExplorer/www/monstyle.css",
-		"/C/Projects/connect-usage-master/README.md",
-		"/C/Users/u0079268/Downloads/cheapskate-master/settings.py",
-		"/C/Users/u0079268/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
-		"/C/Users/u0079268/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings"
+		"/Users/sam/Documents/WebSite/expense-manager-master/deploy.sh",
+		"/Users/sam/Documents/WebSite/expense-manager-master/init.js",
+		"/Users/sam/Documents/com.microsoft.office.licensing.plist",
+		"/Users/sam/Documents/WebSite/sigal/_build/index.html",
+		"/Users/sam/Documents/WebSite/sigal/theme/sigal-jekyll-master/templates/base.html",
+		"/Users/sam/Documents/WebSite/sigal/.gitignore",
+		"/Users/sam/Documents/WebSite/sigal/theme/colorbox-sam/static/css/layout.css",
+		"/Users/sam/Documents/WebSite/sigal/theme/colorbox/templates/base.html",
+		"/Users/sam/Documents/WebSite/flickolio2015/bottom.php",
+		"/Users/sam/Documents/WebSite/flickolio/style.css",
+		"/Users/sam/Documents/WebSite/flickolio2015/index.php",
+		"/Users/sam/Documents/WebSite/flickolio2015/header.php",
+		"/Users/sam/Documents/WebSite/flickolio2015/phpFlickr.php",
+		"/Users/sam/Documents/WebSite/flickolio/phpFlickr.php",
+		"/Users/sam/Documents/WebSite/flickolio/index.php",
+		"/Users/sam/Documents/WebSite/flickr-folio/img/photoset.svg",
+		"/Users/sam/Documents/WebSite/flickr-folio/img/iconmonstr-picture-icon.svg",
+		"/Users/sam/Documents/WebSite/flickr-folio/img/iconmonstr-picture-box-icon.svg",
+		"/Users/sam/Downloads/GammaGallery/index.html",
+		"/Users/sam/Documents/WebSite/iou-meteor/iou-meteor.css",
+		"/Users/sam/Documents/WebSite/iou-meteor/iou-meteor.html",
+		"/Users/sam/Documents/WebSite/iou-meteor/iou-meteor.js",
+		"/Applications/XBMC.app/Contents/Resources/XBMC/addons/skin.refred-master/720p/ViewLeftList.xml",
+		"/Users/sam/Documents/WebSite/opentravel/header.php",
+		"/Users/sam/Library/Application Support/XBMC/addons/skin.amber/1080i/Font.xml",
+		"/Users/sam/Downloads/iou-meteor.js",
+		"/Users/sam/Documents/WebSite/mongodump"
 	],
 	"find":
 	{
-		"height": 72.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
-		"height": 209.0,
+		"height": 0.0,
 		"where_history":
 		[
 		]
@@ -135,27 +212,107 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"expy_live",
-			"charts",
-			"Expense Sheet",
-			"as MfgDa",
-			"MfgDa",
-			"[disposition_KW_33_M99_withModel.xlsx]ModelData!",
-			"[z_BMBC_Vorlage_disposition_IgLAB_II_PACE_withModel.xlsx]ModelData!",
-			"[disposition_KW_33_IgLAB_withModel.xlsx]ModelData!",
-			"'ModelData'",
-			"3361",
-			"C:\\Projects\\SEMehrBulk\\5analysis\\[disposition_KW_33_M99_withModel.xlsx]",
-			"[disposition_KW_33_M99_withModel.xlsx]",
-			"13251",
-			" (   ",
-			"    ",
-			" NA   ",
-			"      ",
-			"          ",
-			"1U 172",
-			"1U 17",
-			"1U 170"
+			"date",
+			"accou",
+			"Exp",
+			"dataset",
+			"diabetes",
+			"max-h",
+			"max-",
+			"right",
+			"curs",
+			"curso",
+			"#",
+			"##",
+			"width",
+			"galler",
+			"justif",
+			"justi",
+			"font-fa",
+			"font",
+			"font-fa",
+			"PT",
+			"genera",
+			"genra",
+			"sigal",
+			"caption",
+			"capt",
+			"cap",
+			"captio",
+			"96",
+			"css",
+			"contain$",
+			"three",
+			"column_size",
+			"settings.colorbox_column_size",
+			"une",
+			".ima",
+			".image",
+			"image",
+			"bonus",
+			"table_t",
+			"table_",
+			"buo",
+			"bou",
+			"car",
+			"Depenses.f",
+			"monthlyCatRatio",
+			"monthlyCat",
+			"totalCat",
+			"anymonthmonthlytotal",
+			"anymonthmonthlytotalCat",
+			"monthlyCat",
+			"consolidateMonth",
+			"Depe",
+			"summaryall",
+			"Depenses",
+			"anymonthmonthlytotal",
+			"depenses",
+			"consolidateMonthly",
+			"poster",
+			"1000",
+			"100",
+			"title",
+			"find",
+			"help",
+			"monthlytotalCat",
+			"drawchart",
+			"rentAmount",
+			"summary__table",
+			"monthlytotalCat",
+			"Depenses.find()",
+			"        if (Depenses.find().count() > 0) {\n",
+			"fetch",
+			"monthlyratioCat",
+			"session",
+			"anymonthmonthlytotalCat",
+			"login__screen",
+			"monthlyratioCat",
+			"Depe",
+			"summaryall",
+			"monthlyratioCat",
+			"Arial.ttf",
+			"totalRatio",
+			"monthlyMratioCat",
+			"monthlytotalCat",
+			"rendered",
+			"btn__stats",
+			"summaryall",
+			"drawChartCurrent",
+			"drawC",
+			"dra",
+			"count",
+			"depense",
+			"count",
+			"Deps",
+			"dpes",
+			"if (Depenses.find().count() > 0) {",
+			"find().count() ",
+			"dra",
+			"Deps.autorun(function () {",
+			"autor",
+			"drawChartCurrent",
+			"dataDimpl"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -163,15 +320,12 @@
 		"regex": false,
 		"replace_history":
 		[
-			"ModelData!",
-			"ModelData",
-			"13781",
-			"",
-			"3361",
-			" ( ",
-			" (",
-			")",
-			" ("
+			"trainData",
+			"InternationalTouristArrivals",
+			"findFaster",
+			"Casper.ttf",
+			"Gotham-Light.otf",
+			"Deps.autorun(function () {"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -182,11 +336,159 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "expense-form.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3564,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1792,
+								1792
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8736,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6159,
+								6159
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1019.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "account-balances.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 506,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								455,
+								455
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "init.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6041,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2826,
+								2831
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1373.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 155,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								155,
+								155
+							]
+						],
+						"settings":
+						{
+							"auto_name": "/dev/sdb1       916G  853G   17G  99% /mnt/disk2_1",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
 					"file": "sw.js",
 					"semi_transient": false,
 					"settings":
@@ -198,13 +500,13 @@
 						"selection":
 						[
 							[
-								532,
-								532
+								971,
+								971
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -212,13 +514,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 6,
 					"file": "transfer-form.js",
-					"semi_transient": true,
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 3529,
@@ -228,43 +530,13 @@
 						"selection":
 						[
 							[
-								621,
-								623
+								2535,
+								2535
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 375.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "init.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6037,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								338,
-								338
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -272,67 +544,37 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "index.html",
+					"buffer": 7,
+					"file": "yearly-overview.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5551,
+						"buffer_size": 4623,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								630,
-								630
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "utils.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7838,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								397,
-								397
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 150.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
+					"stack_index": 7,
 					"type": "text"
 				}
 			]
@@ -340,11 +582,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 34.0
+		"height": 23.0
 	},
 	"input":
 	{
-		"height": 49.0
+		"height": 0.0
 	},
 	"layout":
 	{
@@ -373,17 +615,15 @@
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "",
 	"project": "myExp.sublime-project",
 	"replace":
 	{
-		"height": 64.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
 	{
 		"height": 0.0,
-		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -392,7 +632,6 @@
 	"select_project":
 	{
 		"height": 0.0,
-		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -401,13 +640,11 @@
 	"select_symbol":
 	{
 		"height": 0.0,
-		"last_filter": "",
 		"selected_items":
 		[
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
 	"settings":
 	{
 	},
@@ -415,7 +652,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 221.0,
+	"side_bar_width": 191.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

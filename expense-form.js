@@ -105,8 +105,8 @@
     //   isYearlyElUl.appendChild(utils.wrapInLi(category));
     // });
     // isYearlyEl.value = "FALSE"
-
-    getmdlSelect.init(".getmdl-select")
+    isYearlyEl.checked = false;
+    getmdlSelect.init(".getmdl-select");
     
     // set lister for `Save` button
     addExpenseBtn.onclick = addExpense.bind(null);
